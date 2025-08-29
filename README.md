@@ -3,8 +3,37 @@
 A lightweight way to run INF100 lab scripts interactively using Streamlit.
 
 ## Prerequisites
-- Python 3.10+
-- PowerShell 7 recommended on Windows
+- Python 3.10+ — [python.org downloads](https://www.python.org/downloads/)
+- PowerShell 7 (recommended on Windows) — [Install PowerShell 7](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)
+
+## Dev Container (VS Code / Cursor)
+- Requires Docker (or Podman), and the Dev Containers feature in your editor.
+- Open this folder and choose “Reopen in Container”.
+- The container build will automatically:
+  - create `.venv` and install from `requirements.txt` (see `.devcontainer/devcontainer.json`).
+  - auto-activate the virtual environment in new terminals.
+
+Run the app inside the container:
+```bash
+streamlit run app.py
+```
+
+Managing packages inside the container:
+```bash
+# install new deps
+pip install <package>
+
+# capture all installed versions
+python -m pip freeze > requirements.txt
+```
+
+## Open in GitHub Codespaces
+Launch in the cloud (Codespaces) or locally (Dev Containers):
+
+[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/cbru93/INF100)
+[![Open in Dev Container](https://img.shields.io/static/v1?style=for-the-badge&label=Dev+Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cbru93/INF100)
+
+Both use `.devcontainer/devcontainer.json` to provision Python and install `requirements.txt` automatically.
 
 ## Setup
 ```bash
