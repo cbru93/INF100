@@ -1,0 +1,27 @@
+{
+  "name": "INF100 Python Dev",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "python.terminal.launchArgs": ["-m"],
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "/bin/bash -lc 'python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi'",
+  "postStartCommand": "/bin/bash -lc 'if [ -f .venv/bin/activate ]; then echo \"source .venv/bin/activate\" >> ~/.bashrc; fi'"
+}
+
+
