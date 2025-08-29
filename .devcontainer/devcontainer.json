@@ -20,7 +20,7 @@
     }
   },
   "remoteUser": "vscode",
-  "postCreateCommand": "/bin/bash -lc 'python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi'",
+  "postCreateCommand": "/bin/bash -lc 'if command -v sudo >/dev/null 2>&1; then sudo apt-get update && sudo apt-get install -y xvfb ghostscript; else apt-get update && apt-get install -y xvfb ghostscript; fi && python -m venv .venv && . .venv/bin/activate && pip install --upgrade pip && if [ -f requirements.txt ]; then pip install -r requirements.txt; fi'",
   "postStartCommand": "/bin/bash -lc 'if [ -f .venv/bin/activate ]; then echo \"source .venv/bin/activate\" >> ~/.bashrc; fi'"
 }
 

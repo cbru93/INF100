@@ -17,6 +17,13 @@
         "navn": "Sparekonto",
         "saldo": 50000.0,
         "rente": 0.03
+      },
+      {
+        "kontonummer": "1234.56.78902",
+        "type": "Sparekonto",
+        "navn": "Neste ferie",
+        "saldo": 0.0,
+        "rente": 0.03
       }
     ],
     "lån": [

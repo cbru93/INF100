@@ -79,3 +79,6 @@ Thumbs.db
 
 # Streamlit secrets (optional)
 .streamlit/secrets.toml
+
+# Graphics
+*/artifacts/
