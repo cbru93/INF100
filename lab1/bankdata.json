@@ -1,0 +1,29 @@
+{
+    "personalia": {
+      "navn": "Ola Nordmann",
+      "fødselsdato": "1990-05-15"
+    },
+    "konti": [
+      {
+        "kontonummer": "1234.56.78901",
+        "type": "Brukskonto",
+        "navn": "Lønnskonto",
+        "saldo": 15000.5,
+        "rente": 0.0
+      },
+      {
+        "kontonummer": "9876.54.32109",
+        "type": "Sparekonto",
+        "navn": "Sparekonto",
+        "saldo": 50000.0,
+        "rente": 0.03
+      }
+    ],
+    "lån": [
+      {
+        "type": "Boliglån",
+        "beløp": 2500000,
+        "rente": 5.0
+      }
+    ]
+  }
