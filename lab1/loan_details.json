@@ -1,0 +1,7 @@
+{
+    "house_price": 1500000,
+    "deductible": 280000,
+    "yearly_interest_rate_pct": 7.50,
+    "years": 30,
+    "monthly_fee": 65
+}

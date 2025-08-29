@@ -21,7 +21,7 @@
       {
         "kontonummer": "1234.56.78902",
         "type": "Sparekonto",
-        "navn": "Neste ferie",
+        "navn": "neste ferie",
         "saldo": 0.0,
         "rente": 0.03
       }
