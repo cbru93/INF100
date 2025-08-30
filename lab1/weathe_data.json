@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [5.33, 60.3894, 2] },
+  "properties": {
+    "meta": {
+      "updated_at": "2025-08-29T20:38:26Z",
+      "units": {
+        "air_temperature": "celsius",
+        "precipitation_amount": "mm",
+        "precipitation_rate": "mm/h",
+        "relative_humidity": "%",
+        "wind_from_direction": "degrees",
+        "wind_speed": "m/s",
+        "wind_speed_of_gust": "m/s"
+      },
+      "radar_coverage": "ok"
+    },
+    "timeseries": [
+      {
+        "time": "2025-08-29T20:40:00Z",
+        "data": {
+          "instant": {
+            "details": {
+              "air_temperature": 14.1,
+              "precipitation_rate": 0.0,
+              "relative_humidity": 91.0,
+              "wind_from_direction": 122.8,
+              "wind_speed": 1.6,
+              "wind_speed_of_gust": 2.8
+            }
+          },
+          "next_1_hours": {
+            "summary": { "symbol_code": "fair_night" },
+            "details": { "precipitation_amount": 0.0 }
+          }
+        }
+      },
+      {
+        "time": "2025-08-29T20:45:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T20:50:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T20:55:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:00:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:05:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:10:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:15:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:20:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:25:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:30:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:35:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:40:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:45:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:50:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T21:55:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T22:00:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T22:05:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T22:10:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T22:15:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T22:20:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T22:25:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      },
+      {
+        "time": "2025-08-29T22:30:00Z",
+        "data": { "instant": { "details": { "precipitation_rate": 0.0 } } }
+      }
+    ]
+  }
+}

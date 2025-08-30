@@ -6,7 +6,8 @@ def longest_password():
         data = json.load(file)
         longest = max(
             data['people'], key=lambda x: len(x['password']))
-        print(longest)
+        number_of_characters = len(longest['password'])
+        print(number_of_characters)
 
 
 longest_password()

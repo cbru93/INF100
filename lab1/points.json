@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": 42,
+      "type": "Feature",
+      "properties": { "Name": "Gruppetimer" },
+      "geometry": {
+        "coordinates": [5.32938628135696, 60.38151104034819],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 95,
+      "type": "Feature",
+      "properties": { "Name": "Turmål" },
+      "geometry": {
+        "coordinates": [5.342659324608178, 60.394646630412296],
+        "type": "Point"
+      }
+    }
+  ]
+}

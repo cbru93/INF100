@@ -7,7 +7,7 @@ def add_json():
         tall1 = int(data["tall1"])
         tall2 = int(data["tall2"])
         result = tall1 + tall2
-        print("Summen av tallene er ", result)
+        print("Summen av tallene er", result)
 
 
 add_json()

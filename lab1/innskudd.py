@@ -1,5 +1,3 @@
-"""Display the total amount of money in the bank."""
-
 import json
 from dataclasses import dataclass
 from pathlib import Path
@@ -22,7 +20,7 @@ class Konti:
 class Laan:
     """Class for loans."""
     type: str
-    belop: float
+    beløp: float
     rente: float
 
 
@@ -30,7 +28,7 @@ class Laan:
 class Personalia:
     """Class for personal information."""
     navn: str
-    fodselsdato: str
+    fødselsdato: str
 
 
 @dataclass
@@ -38,13 +36,13 @@ class Bankdata:
     """Class for bank data."""
     personalia: Personalia
     konti: list[Konti]
-    laan: list[Laan]
+    lån: list[Laan]
 
 
 bankdata = Bankdata(
     personalia=Personalia(**data['personalia']),
     konti=[Konti(**konto) for konto in data['konti']],
-    laan=[Laan(**laan) for laan in data['laan']]
+    lån=[Laan(**lån) for lån in data['lån']]
 )
 
 name = bankdata.personalia.navn

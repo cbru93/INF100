@@ -1,6 +1,7 @@
-import requests
-from pathlib import Path
 import json
+from pathlib import Path
+
+import requests
 
 # Hent en tilfeldig vits (med timeout)
 resp = requests.get(
@@ -26,5 +27,7 @@ print("Du syns vitsen var", laughter, "/ 10")
 
 # Lagre vitsen i en JSON-fil
 SAVE_FILENAME = "joke.json"
+# Add the rating to the joke data
+data['rating'] = laughter
 with Path(SAVE_FILENAME).open('w', encoding='utf-8') as file:
     json.dump(data, file)
